@@ -1,11 +1,12 @@
-// Don’t commit the following files and directories created by pub and dart2js
-packages/
-*.js_
-*.js.deps
-*.js.map
+# See https://www.dartlang.org/tools/private-files.html
 
-// Include when developing application packages
+# Files and directories created by pub
+.packages
+.pub/
+build/
+# If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
 
-// Avoid committing generated JavaScript files
-*.dart.js
+# Directory created by dartdoc
+# If you don't generate documentation locally you can remove this line.
+doc/api/
